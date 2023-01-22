@@ -25,3 +25,27 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /* My CSS */
+
+  .emojis {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    padding-right: 500px;
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+  }
+
+  .icon {
+    order: -1;
+    align-self: center;
+    /* align-items: flex-start; */
+  }
+
+  
